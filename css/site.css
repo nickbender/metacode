@@ -478,54 +478,6 @@ h6, .h6, small {
   padding-left: 1rem;
 }
 
-.mobile-col {
-  float: left;
-}
-
-.mobile-col-1 {
-  width: 8.33333%;
-}
-
-.mobile-col-2 {
-  width: 16.66667%;
-}
-
-.mobile-col-3 {
-  width: 25%;
-}
-
-.mobile-col-4 {
-  width: 33.33333%;
-}
-
-.mobile-col-5 {
-  width: 41.66667%;
-}
-
-.mobile-col-6 {
-  width: 50%;
-}
-
-.mobile-col-7 {
-  width: 58.33333%;
-}
-
-.mobile-col-8 {
-  width: 66.66667%;
-}
-
-.mobile-col-9 {
-  width: 75%;
-}
-
-.mobile-col-10 {
-  width: 83.33333%;
-}
-
-.mobile-col-11 {
-  width: 91.66667%;
-}
-
 @media screen and (min-width: 48em) {
   .col {
     float: left;
@@ -841,45 +793,6 @@ a:hover {
 .circle {
   border-radius: 50%;
 }
-
-.form-light .input,
-.form-light .textarea,
-.form-light .select {
-  background-color: white;
-  transition: box-shadow .2s ease;
-  border-color: #cccccc;
-  border-radius: 0.25rem;
-}
-.form-light .input:focus,
-.form-light .textarea:focus,
-.form-light .select:focus {
-  outline: none;
-  border-color: #0096cc;
-  box-shadow: 0 0 0.125rem rgba(0, 150, 204, 0.5);
-}
-.form-light .radio input,
-.form-light .checkbox input {
-  transition: box-shadow .2s ease;
-}
-.form-light .radio input:focus,
-.form-light .checkbox input:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px white, 0 0 1px 4px rgba(0, 150, 204, 0.5);
-}
-.form-light .radio input {
-  border-radius: 50%;
-}
-.form-light .fieldset {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-radius: 0.25rem;
-}
-
-.table-light th, .table-light td {
-  border-bottom: 1px solid #cccccc;
-}
-
 .button {
   border-radius: 0.25rem;
   transition-duration: .2s;
