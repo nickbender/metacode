@@ -4,33 +4,69 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Metacode: Learn how to learn to code.</title>
     <link rel="stylesheet" type="text/css" href="css/site.css">
+    <script src="//use.typekit.net/siu7lvd.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
-    <header>
-      <div data-component="navbar" class="clearfix bg-mid-gray">
+    <?php include 'header.php' ?>
+    <div class="row hero-bg">
       <div class="container">
-        <div class="left">
-          <div class="medium nav mobile-nav-table nav-big nav-dark">
-            <a href="#!">Home</a>
-            <a href="#!">Categories</a>
-          </div>
-        </div>
-        <div class="right">
-          <div class="medium nav nav-big nav-dark">
-            <a href="#!">Sign In</a>
-          </div>
+        <div class="col-center col-6">
+          <h1 class="h1 center hero-font mt3 mb0">Metacode</h1>
+          <p class="center h4">
+            Teaching the web is a business. <br>
+            Reviewing code educators without bias is ours.
+          </p>
         </div>
       </div>
-      </div>
-    </header>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col-center col-6">
-          <h1 class="h1 center">Metacode</h1>
-          <img class="absolute-center" src="http://i.giphy.com/x3TGbdF6Z8tsQ.gif" alt='NERD!'>
+        <div class="h2 center m4">
+          Get the lastest news and reviews about those who promise the most.
         </div>
-      </div>  
+        <hr>
+        <div class="row">
+        <!-- TODO: DRY up this section -->
+          <div class="col col-3 center">
+            <a href="educator.php">
+              <img src="/images/bloc" alt="" class="fit p1" />
+            </a>
+          </div>
+          <div class="col col-3 center">
+            <a href="educator.php">
+              <img src="/images/codeschool" alt="" class="fit p1" />
+            </a>
+          </div>
+          <div class="col col-3 center">
+            <a href="educator.php">
+              <img src="/images/treehouse" alt="" class="fit p1" />
+            </a>
+          </div>
+          <div class="col col-3 center">
+            <a href="educator.php">
+              <img src="/images/devbootcamp" alt="" class="fit p1" />
+            </a>
+          </div>
+          <div class="col col-3 center">
+            <a href="educator.php">
+              <img src="/images/thinkful" alt="" class="fit p1" />
+            </a>
+          </div>
+          <div class="col col-3 center">
+            <a href="educator.php">
+              <img src="/images/codingdojo" alt="" class="fit p1" />
+            </a>
+          </div>
+          <div class="col col-3 center">
+            <a href="educator.php">
+              <img src="/images/hackerschool" alt="" class="fit p1" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+    <?php include 'footer.php' ?>
   </body>
 </html>
 
