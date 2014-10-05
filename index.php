@@ -30,37 +30,37 @@
         <!-- TODO: DRY up this section -->
           <div class="col col-3 center">
             <a href="educator.php">
-              <img src="/images/bloc" alt="" class="fit p1" />
+              <img src="/images/bloc.jpg" alt="" class="fit p1" />
             </a>
           </div>
           <div class="col col-3 center">
             <a href="educator.php">
-              <img src="/images/codeschool" alt="" class="fit p1" />
+              <img src="/images/codeschool.png" alt="" class="fit p1" />
             </a>
           </div>
           <div class="col col-3 center">
             <a href="educator.php">
-              <img src="/images/treehouse" alt="" class="fit p1" />
+              <img src="/images/treehouse.png" alt="" class="fit p1" />
             </a>
           </div>
           <div class="col col-3 center">
             <a href="educator.php">
-              <img src="/images/devbootcamp" alt="" class="fit p1" />
+              <img src="/images/devbootcamp.png" alt="" class="fit p1" />
             </a>
           </div>
           <div class="col col-3 center">
             <a href="educator.php">
-              <img src="/images/thinkful" alt="" class="fit p1" />
+              <img src="/images/thinkful.png" alt="" class="fit p1" />
             </a>
           </div>
           <div class="col col-3 center">
             <a href="educator.php">
-              <img src="/images/codingdojo" alt="" class="fit p1" />
+              <img src="/images/codingdojo.png" alt="" class="fit p1" />
             </a>
           </div>
           <div class="col col-3 center">
             <a href="educator.php">
-              <img src="/images/hackerschool" alt="" class="fit p1" />
+              <img src="/images/hackerschool.png" alt="" class="fit p1" />
             </a>
           </div>
         </div>
