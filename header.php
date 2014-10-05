@@ -3,7 +3,7 @@
   <div class="container nav">
     <div class="left">
       <div class="medium nav-big nav-dark">
-        <a href="#!" class="h2 px1">
+        <a href="/" class="h2 px1">
         { <span class="hero-font h3">M</span> }
         </a>
       </div>

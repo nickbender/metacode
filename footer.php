@@ -17,7 +17,8 @@
       </div>
     </div>
     <div class="row center p3">
-      Crafted by <a href="http://nickbender.io">Nick Bender</a>
+      Crafted by <a href="http://nickbender.io">Nick Bender</a>. No right reserved. <br>
+      <img src="/images/cc-zero.png" alt="" class="m1">
     </div>
   </div>
 </div>

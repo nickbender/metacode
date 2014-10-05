@@ -747,6 +747,9 @@ a:hover {
   background-color: #f96010;
 }
 
+.rounded {
+  border-radius: 3px;
+}
 
 .nav a:hover, .nav a:focus {
   text-decoration: none;
