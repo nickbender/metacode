@@ -10,7 +10,7 @@
     </div>
     <div class="right">
       <div class="medium nav-big nav-dark">
-        <a href="#!" class="px2 py1">Sign In</a>
+        <a href="/session/signin.php" class="px2 py1">Sign In</a>
       </div>
     </div>
   </div>

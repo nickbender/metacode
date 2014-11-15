@@ -1,14 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Metacode: Learn how to learn to code.</title>
-    <link rel="stylesheet" type="text/css" href="css/site.css">
-    <script src="//use.typekit.net/siu7lvd.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-  </head>
+  <?php include("partials/head.php") ?>
   <body>
-    <?php include 'header.php' ?>
+    <?php include 'partials/header.php' ?>
     <div class="row hero-bg">
       <div class="container">
         <div class="col-center col-6">
@@ -29,7 +23,7 @@
         <div class="row">
         <!-- TODO: DRY up this section -->
           <div class="col col-3 center">
-            <a href="educator.php">
+            <a href="schools/bloc.php">
               <img src="/images/bloc.jpg" alt="" class="fit p1" />
             </a>
           </div>
@@ -66,7 +60,6 @@
         </div>
       </div>
     </div>
-    <?php include 'footer.php' ?>
+    <?php include 'partials/footer.php' ?>
   </body>
 </html>
-
