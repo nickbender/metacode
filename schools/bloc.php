@@ -5,9 +5,6 @@
   <body>
     <?php include '../partials/header.php' ?>
     <div class="container">
-    <div class="row">
-
-    </div>
       <div class="row m4">
         <div class="col col-3 col-offset-1">
           <img src="/images/bloc.jpg" alt="" class="rounded center mb2 fit" />
@@ -20,10 +17,12 @@
           <h2 class="h2">Bloc.io</h2>
           <p>
             School info here
+            <?php include("../partials/comment-form.php") ?>
           </p>
         </div>
       </div>
     </div>
+
     <?php include '../partials/footer.php' ?>
   </body>
  </html>

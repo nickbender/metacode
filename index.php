@@ -29,7 +29,7 @@
             </a>
           </div>
           <div class="col col-3 center">
-            <a href="educator.php">
+            <a href="schools/codeschool.php">
               <img src="/images/codeschool.png" alt="" class="fit p1" />
             </a>
           </div>

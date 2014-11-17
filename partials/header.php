@@ -19,7 +19,7 @@
           <input type="password" name='password' class="field-light" placeholder="Password">
           <button class="button-blue" type="submit">Sign In</button
         </form>
-        <a href="../signup-form.php">Sign up</a>
+        <a class="button button-gray" href="../signup-form.php">Sign up</a>
         <?php
          } else {
           echo "Hello, " . $_SESSION["name"]; ?>

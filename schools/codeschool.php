@@ -5,21 +5,19 @@
   <body>
     <?php include '../partials/header.php' ?>
     <div class="container">
-    <div class="row">
-
-    </div>
       <div class="row m4">
         <div class="col col-3 col-offset-1">
-          <img src="/images/bloc.jpg" alt="" class="rounded center mb2 fit" />
+          <img src="/images/codeschool.png" alt="" class="rounded center mb2 fit" />
           <p class='m1 justified'>
           <span class="bold">Founded:</span> February 26, 2011<br>
           <span class="bold">Cost:</span> $0<br>
           </p>
         </div>
         <div class="col col-6">
-          <h2 class="h2">Bloc.io</h2>
+          <h2 class="h2">Codeschool</h2>
           <p>
             School info here
+            <?php include("../partials/comment-form.php") ?>
           </p>
         </div>
       </div>

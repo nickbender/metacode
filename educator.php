@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <?php include("partials/head.php") ?>
   <body>
-    <?php include 'header.php' ?>
+    <?php include 'partials/header.php' ?>
     <div class="container">
     <div class="row">
 
@@ -31,6 +31,6 @@
     		</div>
     	</div>
     </div>
-    <?php include 'footer.php' ?>
+    <?php include 'partials/footer.php' ?>
   </body>
  </html>
