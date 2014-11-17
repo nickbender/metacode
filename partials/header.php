@@ -10,7 +10,21 @@
     </div>
     <div class="right">
       <div class="medium nav-big nav-dark">
-        <a href="/session/signin.php" class="px2 py1">Sign In</a>
+        <?php if (is_null($_SESSION["name"])) { ?>
+        <form action="../session/signin" method="post">
+          <?php if ($_SESSION["form_errors"] === true) {
+            echo "Those credentials weren't correct. Please try again.";
+          } ?>
+          <input type="text" name='email' class="field-light" placeholder="Email">
+          <input type="password" name='password' class="field-light" placeholder="Password">
+          <button class="button-blue" type="submit">Sign In</button
+        </form>
+        <a href="../signup-form.php">Sign up</a>
+        <?php
+         } else {
+          echo "Hello, " . $_SESSION["name"]; ?>
+          <a href="/session/signout.php">&nbsp; Logout</a>
+        <?php } ?>
       </div>
     </div>
   </div>

@@ -2,13 +2,20 @@
 
 class Dao {
 
-  private $host = "localhost";
+  private $host = "127.0.0.1";
   private $db = "metacode";
   private $user = "root";
   private $pass = "totes-secure";
 
   public function getConnection () {
-    return new PDO("mysql:host={$this->host};dbname={$this->db}", $this->user, $this->pass);
+    try {
+      $dbh = new PDO("mysql:host={$this->host};dbname={$this->db}", $this->user, $this->pass);
+      $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      } catch (PDOException $e) {
+        print "Error!: " . $e->getMessage() . "<br/>";
+        die();
+      }
+    return $dbh;
   }
 
   public function getUsers () {
@@ -36,11 +43,7 @@ class Dao {
 
   public function saveUser ($first, $last, $email, $pass) {
     $conn = $this->getConnection();
-    $saveQuery =
-      "INSERT INTO user
-      (first, last, email, password)
-      VALUES
-      (:first, :last, :email, :pass)";
+    $saveQuery = "INSERT INTO user (first, last, email, password) VALUES (:first, :last, :email, :pass)";
 
       $q = $conn->prepare($saveQuery);
       $q->bindParam(":first", $first);
@@ -48,16 +51,12 @@ class Dao {
       $q->bindParam(":email", $email);
       $q->bindParam(":pass", $pass);
       $q->execute();
-
   }
 
   public function saveComment ($comment_date, $user_id, $post_id, $content) {
     $conn = $this->getConnection();
     $saveQuery =
-    "INSERT INTO comment
-    (user_id, post_id, content)
-    VALUES
-    (:user_id, :post_id, :content)";
+    "INSERT INTO comment (user_id, post_id, content) VALUES (:user_id, :post_id, :content)";
 
     $q = $conn->prepare($saveQuery);
     $q->bindParam(":user_id", $user_id);
@@ -84,3 +83,4 @@ class Dao {
     return $q->fetchAll();
   }
 }
+?>
