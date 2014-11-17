@@ -11,7 +11,7 @@
     <div class="right">
       <div class="medium nav-big nav-dark">
         <?php if (is_null($_SESSION["name"])) { ?>
-        <form action="../session/signin" method="post">
+        <form action="../session/signin.php" method="post">
           <?php if ($_SESSION["form_errors"] === true) {
             echo "Those credentials weren't correct. Please try again.";
           } ?>

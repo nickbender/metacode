@@ -19,7 +19,7 @@
     <div class="container">
       <div class="col-center col-5">
         <h2 class="h2 center mt3 mb0">Sign up to participate</h1>
-        <form action="../session/signup" method="post">
+        <form action="../session/signup.php" method="post">
           <label>First Name</label>
           <input type="text" name='first' class="block full-width field-light">
           <label>Last Name</label>
