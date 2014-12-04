@@ -22,7 +22,6 @@
         </div>
         <hr>
         <div class="row">
-        <!-- TODO: DRY up this section -->
           <div class="col col-3 center">
             <a href="schools/bloc.php">
               <img src="/images/bloc.jpg" alt="" class="fit p1" />
@@ -34,28 +33,13 @@
             </a>
           </div>
           <div class="col col-3 center">
-            <a href="educator.php">
+            <a href="schools/treehouse.png">
               <img src="/images/treehouse.png" alt="" class="fit p1" />
             </a>
           </div>
           <div class="col col-3 center">
-            <a href="educator.php">
+            <a href="schools/devbootcamp.php">
               <img src="/images/devbootcamp.png" alt="" class="fit p1" />
-            </a>
-          </div>
-          <div class="col col-3 center">
-            <a href="educator.php">
-              <img src="/images/thinkful.png" alt="" class="fit p1" />
-            </a>
-          </div>
-          <div class="col col-3 center">
-            <a href="educator.php">
-              <img src="/images/codingdojo.png" alt="" class="fit p1" />
-            </a>
-          </div>
-          <div class="col col-3 center">
-            <a href="educator.php">
-              <img src="/images/hackerschool.png" alt="" class="fit p1" />
             </a>
           </div>
         </div>

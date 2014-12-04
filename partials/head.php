@@ -6,4 +6,5 @@
   <script src="../scripts/globals.js"></script>
   <script src="//use.typekit.net/siu7lvd.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>

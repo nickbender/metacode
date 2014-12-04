@@ -14,6 +14,8 @@
 
   session_start();
 
+  $_SESSION["form_errors"] = false;
+
   $_SESSION["sign_up_form_errors"] = false;
   $_SESSION["sign_up_email_error"] = "";
   $_SESSION["sign_up_password_error"] = "";

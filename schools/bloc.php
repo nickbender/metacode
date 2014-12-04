@@ -14,11 +14,14 @@
           </p>
         </div>
         <div class="col col-6">
-          <h2 class="h2">Bloc.io</h2>
-          <p>
-            School info here
-            <?php include("../partials/comment-form.php") ?>
-          </p>
+          <h2 class="h2">Bloc</h2>
+          <em>From Bloc.io</em>
+          <p>Simply put, Bloc is the world's largest online bootcamp. We offer more than curriculum, and more than mentorship — we offer a holistic program designed to get you results. We believe in projects, not textbooks. We believe in portfolios, not certificates. We believe in craftsmanship and quality.</p>
+          <p>Mentors are the heart and soul of Bloc. Your mentor acts a coach, providing insight into the best way to tackle a problem. They act as an experienced guide, pair-programming when you get stuck, and as a career mentor, sharing years of industry insight and experience.</p>
+          <p>Every Bloc course has a comprehensive, 100% original curriculum that exposes students to the daily challenges of a professional developer. Students don’t waste time doing exercises or watching videos — after learning the basics, they’re off building real, fully functional apps.</p>
+          <p>Bloc’s curriculum pushes students to build real apps in a professional development environment — no online exercises or games here. The roadmap keeps students on track, while maintaining the flexibility of an online apprenticeship.</p>
+          <p><?php include("../partials/comment-form.php") ?></p>
+
         </div>
       </div>
     </div>
