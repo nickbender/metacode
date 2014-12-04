@@ -20,6 +20,9 @@ body {
   font-family: brandon-grotesque, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -487,6 +490,7 @@ button,
 }
 
 .container {
+  flex: 1;
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto;
