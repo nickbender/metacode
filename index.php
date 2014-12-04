@@ -33,7 +33,7 @@
             </a>
           </div>
           <div class="col col-3 center">
-            <a href="schools/treehouse.png">
+            <a href="schools/treehouse.php">
               <img src="/images/treehouse.png" alt="" class="fit p1" />
             </a>
           </div>
