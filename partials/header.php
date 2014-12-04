@@ -23,7 +23,7 @@
         <?php
          } else {
           echo "Hello, " . $_SESSION["name"]; ?>
-          <a href="/session/signout.php">&nbsp; Logout</a>
+          <a href="/session/signout.php">&nbsp; Logout&nbsp;</a>
         <?php } ?>
       </div>
     </div>
