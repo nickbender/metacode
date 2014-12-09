@@ -8,10 +8,6 @@
       <div class="container">
         <div class="col-center col-6">
           <h1 class="h1 center hero-font mt3 mb0">Metacode</h1>
-          <p class="center h4">
-            Teaching the web is a business. <br>
-            Reviewing code educators without bias is ours.
-          </p>
         </div>
       </div>
     </div>
@@ -22,26 +18,34 @@
         </div>
         <hr>
         <div class="row">
-          <div class="col col-3 center">
-            <a href="schools/bloc.php">
-              <img src="/images/bloc.jpg" alt="" class="fit p1" />
+          <div class="col col-3 center hover-fade">
+            <a class='hover-fade' href="schools/bloc.php">
+              <img src="/images/bloc.png" alt="" class="fit p1" />
             </a>
           </div>
-          <div class="col col-3 center">
+          <div class="col col-3 center hover-fade">
             <a href="schools/codeschool.php">
               <img src="/images/codeschool.png" alt="" class="fit p1" />
             </a>
           </div>
-          <div class="col col-3 center">
+          <div class="col col-3 center hover-fade">
             <a href="schools/treehouse.php">
               <img src="/images/treehouse.png" alt="" class="fit p1" />
             </a>
           </div>
-          <div class="col col-3 center">
+          <div class="col col-3 center hover-fade">
             <a href="schools/devbootcamp.php">
               <img src="/images/devbootcamp.png" alt="" class="fit p1" />
             </a>
           </div>
+        </div>
+        <hr>
+        <div class="row">
+          <p class="center h2 py2">
+            Teaching the web is a business.
+            Reviewing code educators without bias is ours.
+          </p>
+
         </div>
       </div>
     </div>

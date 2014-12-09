@@ -946,3 +946,7 @@ a:hover {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
+
+.hover-fade:hover{
+  background-color: rgba(0,0,0, .1);
+}

@@ -21,9 +21,9 @@
         <h2 class="h2 center mt3 mb0">Sign up to participate</h1>
         <form action="../session/signup.php" method="post">
           <label>First Name</label>
-          <input type="text" name='first' class="block full-width field-light" pattern="[A-Za-z]" title="May only contain letters" required>
+          <input type="text" name='first' class="block full-width field-light" pattern="[A-Za-z]+" title="May only contain letters" required>
           <label>Last Name</label>
-          <input type="text" name='last' class="block full-width field-light" pattern="[A-Za-z]" title="May only contain letters" required>
+          <input type="text" name='last' class="block full-width field-light" pattern="[A-Za-z]+" title="May only contain letters" required>
           <label>Email Address</label>
           <input type="email" name='email' class="block full-width field-light" required>
           <label>Password</label>

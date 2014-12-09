@@ -8,7 +8,7 @@ $post_id = 1; ?>
     <div class="container">
       <div class="row m4">
         <div class="col col-3 col-offset-1">
-          <img src="/images/bloc.jpg" alt="" class="rounded center mb2 fit" />
+          <img src="/images/bloc.png" alt="" class="rounded center mb2 fit" />
           <p class='m1 justified'>
           <span class="bold">Founded:</span> December 14, 2011<br>
           <span class="bold">Cost:</span> $4,999.99<br>
@@ -22,10 +22,7 @@ $post_id = 1; ?>
           <p>Every Bloc course has a comprehensive, 100% original curriculum that exposes students to the daily challenges of a professional developer. Students don’t waste time doing exercises or watching videos — after learning the basics, they’re off building real, fully functional apps.</p>
           <p>Bloc’s curriculum pushes students to build real apps in a professional development environment — no online exercises or games here. The roadmap keeps students on track, while maintaining the flexibility of an online apprenticeship.</p>
           <p><?php include("../partials/comment-form.php") ?></p>
-          <p>
-            <?php include("../partials/comments.php") ?>
-          </p>
-
+          <p><?php include("../partials/comments.php") ?></p>
         </div>
       </div>
     </div>
