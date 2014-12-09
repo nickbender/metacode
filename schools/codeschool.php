@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+$post_id = 2; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <?php include '../partials/head.php' ?>
@@ -21,6 +22,7 @@
           <p>Code School is an online learning platform that teaches a variety of programming and web design skills. Courses range from beginner to advanced levels and you get to earn rewards and badges as you learn.</p>
           <p>Our courses use screencasts and interactive exercises to guide you to better code. Each course has at least five levels. Each level begins with a 10-15 minute screencast, followed by a series of code challenges you must solve to make it to the next level.</p>
           <p><?php include("../partials/comment-form.php") ?></p>
+          <p><?php include("../partials/comments.php") ?></p>
         </div>
       </div>
     </div>

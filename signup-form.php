@@ -17,17 +17,17 @@
     </header>
 
     <div class="container">
-      <div class="col-center col-5">
+      <div class="col-center col-12">
         <h2 class="h2 center mt3 mb0">Sign up to participate</h1>
         <form action="../session/signup.php" method="post">
           <label>First Name</label>
-          <input type="text" name='first' class="block full-width field-light">
+          <input type="text" name='first' class="block full-width field-light" pattern="[A-Za-z]" title="May only contain letters" required>
           <label>Last Name</label>
-          <input type="text" name='last' class="block full-width field-light">
+          <input type="text" name='last' class="block full-width field-light" pattern="[A-Za-z]" title="May only contain letters" required>
           <label>Email Address</label>
-          <input type="text" name='email' class="block full-width field-light">
+          <input type="email" name='email' class="block full-width field-light" required>
           <label>Password</label>
-          <input type="password" name='password' class="block full-width field-light"><br>
+          <input type="password" name='password' class="block full-width field-light" required><br>
           <button class="button" type="submit">Sign Up</button
         </form>
       </div>

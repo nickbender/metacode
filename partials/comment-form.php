@@ -5,7 +5,7 @@
 <?php } else { ?>
 <div class="comment-form">
   <form class="commment-form" id="comment-form" action="/partials/new-comment.php" method="post">
-    <textarea class="text-area mb2" id="comment-text-area" rows="4" cols="50" name="content"></textarea></br>
+    <textarea class="text-area mb2" id="comment-text-area" rows="4" cols="50" name="content" required></textarea></br>
     <input type="hidden" name="post_id" value="<?php echo $post_id ?>">
     <input type="hidden" name="user_name" value="<?php echo $_SESSION['first'] ?>">
     <button type="submit" class="button-blue">SUBMIT COMMENT</button>

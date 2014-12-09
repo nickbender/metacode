@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+$post_id = 4; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <?php include '../partials/head.php' ?>
@@ -21,6 +22,7 @@
         <p>Many front-end developers are self-taught, spending years building their own sites or side projects and improving their knowledge before they are able to contribute meaningfully to commercial projects. Teaching yourself by ‘hacking’ and reading web forums may seem to be the cheaper (or free) option, but in actuality learning this way can have major drawbacks. Many self-taught developers spend far more time than required to learn their craft, and end up with holes in their knowledge base that have them fall short of achieving mastery, resulting in a ceiling in their earnings potential. Spending 3 years to become average has a far higher opportunity cost than finding real training and becoming great in 12-18 months.</p>
         <p>Treehouse, a leading online education provider, seeks to help prospective coders become great coders by providing a rich library of over 600+ videos organized into specific learning tracks, along with interactive quizzes and code challenges. Treehouse provides deep and high quality training in HTML, CSS, Javascript, User Experience, as well as Back-End development in Ruby, PHP, iPhone and Android applications.</p>
         <p><?php include("../partials/comment-form.php") ?></p>
+        <p><?php include("../partials/comments.php") ?></p>
       </div>
     </div>
   </div>

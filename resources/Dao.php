@@ -53,7 +53,7 @@ class Dao {
       $q->execute();
   }
 
-  public function saveComment ($comment_date, $user_id, $post_id, $content) {
+  public function saveComment ($user_id, $post_id, $content) {
     $conn = $this->getConnection();
     $saveQuery =
     "INSERT INTO comment (user_id, post_id, content) VALUES (:user_id, :post_id, :content)";
@@ -64,14 +64,6 @@ class Dao {
     $q->bindParam(":content", $content);
     $q->execute();
     return $conn->lastInsertId();
-  }
-
-  public function deleteComment ($comment_id) {
-    $conn = $this->getConnection();
-    $deleteQuery = "DELETE FROM comment WHERE id = :id";
-    $q = $conn->prepare($deleteQuery);
-    $q->bindParam("id", $comment_id);
-    $q->execute();
   }
 
   public function getComments ($post_id) {

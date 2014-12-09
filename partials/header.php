@@ -15,8 +15,8 @@
           <?php if ($_SESSION["form_errors"] === true) {
             echo "Those credentials weren't correct. Please try again.";
           } ?>
-          <input type="text" name='email' class="field-light" placeholder="Email">
-          <input type="password" name='password' class="field-light" placeholder="Password">
+          <input type="email" name='email' class="field-light" placeholder="Email" required>
+          <input type="password" name='password' class="field-light" placeholder="Password" required>
           <button class="button-blue" type="submit">Sign In</button
         </form>
         <a class="button button-gray" href="../signup-form.php">Sign up</a>

@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+$post_id = 3; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <?php include '../partials/head.php' ?>
@@ -21,9 +22,8 @@
           <p>Self-awareness: Students are aware of their own internal motivations, thoughts, feelings, and confusion.</p>
           <p>Empathy: Students are aware of their fellow students' motivations, thoughts, feelings, and confusion.</p>
           <p>We orient each student from day one towards seeking technical understanding, appreciation, and depth. So that their future as a developer is built on this solid foundation. And we have an integrated and intensive Engineering Empathy curriculum, based on decades of experience in these fields, to directly address empathy and self-awareness. You can read more about our approach here, and also hear about what one of our students had to say about it.</p>
-          <p>
-          <?php include("../partials/comment-form.php") ?>
-        </p>
+          <p><?php include("../partials/comment-form.php") ?></p>
+          <p><?php include("../partials/comments.php") ?></p>
       </div>
     </div>
   </div>

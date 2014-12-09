@@ -12,24 +12,12 @@
     foreach ($comments as $comment) {
       $user = $dao->getUserById($comment["user_id"]);
 
-      echo "<div class='comment-content' id='comment-". $comment["id"] ."'>";
+      echo "<div class='regular p2 bg-light-gray m2 rounded'>";
       echo htmlspecialchars($comment["content"]);;
-      if ($comment["user_id"] == $_SESSION["user_id"]){
-        echo "<div class='float-right'><a href='javascript:void(0)' class='delete_comment' value='". $comment["id"] ."'><i class='fa fa-trash-o'></i></a></div>";
-      }
-      echo "<div class='comment-user'>";
+      echo "</div>";
+      echo "<div class='bold'>";
       echo htmlspecialchars($usr->user_name($user));
-      echo "</div></div>";
+      echo "</div>";
     }
   ?>
 </div>
-
-<?php
-  if(isset($_SESSION["email"])) {
-    echo "<div>";
-    include("comment-form.php");
-  echo "</div>";
-  } else {
-    echo "Please log in to leave a comment.";
-  }
-?>
